@@ -1,7 +1,9 @@
-# Hydra - a second brain project to help my all in one brain
-
-## A tool to help my fried brain to organize the zilions ideas, projects and knowladge that I have or want to have
---IMG--
+<div align="center">
+<h1>Hydra - a second brain project to help my all in one brain</h1>
+  <img alt="hydra" src="https://github.com/user-attachments/assets/40a352a2-0e83-4dee-8b14-9761c999e69b" width="300"/>
+<h2>A tool to help my fried brain to organize the zilions ideas, projects and knowladge that I have or want to have</h2>
+<hr/>
+</div>
 ---
 1. intro paragraph
 
