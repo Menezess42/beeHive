@@ -5,6 +5,9 @@ devenv.local.nix
 # direnv
 .direnv
 .envrc
-
+*.png
+*.jpg
+*.jpeg
+imgs/*
 # pre-commit
 .pre-commit-config.yaml
