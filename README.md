@@ -18,3 +18,5 @@
 6. Known issues
 
 7. Donations (maybe)
+
+8. Stack (???)
