@@ -10,6 +10,7 @@
             # Basic python
             pip
             python-dotenv
+            requests
 
             # Project Libs
             numpy
