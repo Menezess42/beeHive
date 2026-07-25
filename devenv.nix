@@ -2,24 +2,26 @@
 {
     packages = [
         pkgs.pyright
+        pkgs.sqlite
     ];
     languages.python = {
         enable = true;
         package = pkgs.python313.withPackages (p: with p; [
-            kagglehub
+            # Basic python
+            pip
+            python-dotenv
+
+            # Project Libs
             numpy
-            scipy
             pandas
-            matplotlib
             pytest
+
+            # JPNotebook
             ipykernel
             ipython
-            kaggle
-            plotly
             nbformat
             pyqt5
-            scikit-learn
-            pip
+            # END JPNotebook
 
             #NVIM
             jedi
@@ -28,13 +30,12 @@
             flake8
             sentinel
             python-lsp-server
-            # END NVIM
-
             virtualenv
             pyflakes
             isort
             debugpy
             nltk
+            # END NVIM
         ]);
 
         venv.enable = true;
