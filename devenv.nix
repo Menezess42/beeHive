@@ -1,9 +1,11 @@
 { pkgs, lib, config, inputs, ... }:
 {
+    # O SQLite fica isolado apenas para este projeto
     packages = [
         pkgs.pyright
-        pkgs.sqlite
+        pkgs.sqlite 
     ];
+
     languages.python = {
         enable = true;
         package = pkgs.python313.withPackages (p: with p; [
@@ -16,15 +18,15 @@
             numpy
             pandas
             pytest
+            questionary
 
             # JPNotebook
             ipykernel
             ipython
             nbformat
             pyqt5
-            # END JPNotebook
 
-            #NVIM
+            # NVIM
             jedi
             jedi-language-server
             black
@@ -36,7 +38,6 @@
             isort
             debugpy
             nltk
-            # END NVIM
         ]);
 
         venv.enable = true;
@@ -45,6 +46,7 @@
             tensorflow
         '';
     };
+
     enterShell = ''
       echo "$(python --version) — venv ativo"
     '';
