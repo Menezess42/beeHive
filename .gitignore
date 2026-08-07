@@ -18,6 +18,9 @@ imgs/*
 # ?
 .env
 .db
+*.db
+*.db*
+
 # Devenv
 .devenv*
 devenv.local.nix
