@@ -6,7 +6,8 @@
 ## 1. intro paragraph
 
 ## 2. Some kind of visual representation and demonstration of the project
-<img width="1244" height="611" alt="beeHive_diagram drawio" src="https://github.com/user-attachments/assets/c4fa0acf-e238-4745-b3ff-e3e2c8f0a4bc" />
+<img width="1244" height="611" alt="beeHive_diagram drawio" src="https://github.com/user-attachments/assets/27a07583-692c-4ad1-92fd-8e6ec213fc99" />
+
 
 ## 3. installation guide
 
