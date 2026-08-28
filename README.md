@@ -1,22 +1,22 @@
 <div align="center">
-<h1>BeeHive - a second brain project to help my all in one brain</h1>
-  <img alt="beeHive" src="https://github.com/user-attachments/assets/40a352a2-0e83-4dee-8b14-9761c999e69b" width="300"/>
-<h2>A tool to help my fried brain to organize the zilions ideas, projects and knowladge that I have or want to have</h2>
-<hr/>
+<h1>BeeHive</h1>
+<h2>Project in early stage of development but the goal is to centralize my scatter virtual brain in one place</h2>
 </div>
----
-1. intro paragraph
 
-2. Some kind of visual representation and demonstration of the project
+## 1. intro paragraph
 
-3. instalation guide
+## 2. Some kind of visual representation and demonstration of the project
+<img width="1244" height="611" alt="beeHive_diagram drawio" src="https://github.com/user-attachments/assets/27a07583-692c-4ad1-92fd-8e6ec213fc99" />
 
-4. Developer instructions
 
-5. Find a bug or pull requests
+## 3. installation guide
 
-6. Known issues
+## 5. Developer instructions
 
-7. Donations (maybe)
+## 7. Find a bug or pull requests
 
-8. Stack (???)
+## 9. Known issues
+
+## 11. Donations (maybe)
+
+## 13. Stack (???)
