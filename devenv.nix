@@ -3,7 +3,8 @@
     # O SQLite fica isolado apenas para este projeto
     packages = [
         pkgs.pyright
-        pkgs.sqlite 
+        pkgs.sqlite
+        pkgs.pkg-config # new for future rust puproses
     ];
 
     languages.python = {
@@ -47,7 +48,20 @@
         '';
     };
 
+    languages.rust = { # For rust
+        enable = true;
+        components = [
+            "rustc"
+            "cargo"
+            "clippy"
+            "rustfmt"
+            "rust-analyzer"
+        ];
+    };
+
+
     enterShell = ''
       echo "$(python --version) — venv ativo"
+      echo "$(rust --version) — toolchain rust ativa"
     '';
 }
